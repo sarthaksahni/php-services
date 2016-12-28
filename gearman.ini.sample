@@ -1,0 +1,4 @@
+[GearmanManager]
+count=1
+max_worker_lifetime=500
+auto_update=1

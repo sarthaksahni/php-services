@@ -1,0 +1,34 @@
+{
+    "name": "sarthaksahni/php-services",
+    "description": "A package for backend services",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Sarthak Sawhney",
+            "email": "sarthaksahni@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.3",
+        "jenssegers/mongodb": "^3.1",
+        "brianlmoon/gearmanmanager": "^1.0",
+        "lavary/crunz": "^1.4",
+        "vlucas/phpdotenv": "^2.4",
+        "symfony/finder": "3.1.0",
+        "illuminate/config": "^5.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*",
+        "xicrow/php-debug": "^2.0"
+    },
+    "autoload": {
+       "psr-4": {
+           "Services\\": "Services/",
+           "Worker\\": "workers/",
+           "Lib\\": "lib/"
+       },
+       "files": [
+          "Services/helper.php"
+       ]
+   }
+}

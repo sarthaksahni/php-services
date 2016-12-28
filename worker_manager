@@ -1,0 +1,2 @@
+#!/bin/sh
+./vendor/brianlmoon/gearmanmanager/pecl-manager.php -c ./gearman.ini -vvvvv
