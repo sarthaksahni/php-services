@@ -24,3 +24,5 @@ supervisor.conf
 .supervisor/*.conf
 
 .env
+
+.DS_Store
